@@ -4,9 +4,7 @@ storeValue("person", {name: "grace"})
 addListItem("userList", {name: "D"})   
 onNewListItem("userList", function(user){
 })
-
 onNewValue("person", function(newPerson) {
-
 })
 
 var input = $("#new-item-input")
