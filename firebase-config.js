@@ -16,7 +16,13 @@ firebase.initializeApp(firebaseConfig);
 
 var store = firebase.database().ref("challenge-3")
 
-store.child("productName")
+var realName = store.child("productName").child("realName")
+
+realName.on("value", function(snapshot) {
+  
+})
+
+
 
 function storeValue(name, value) {	
   var obj = {}
