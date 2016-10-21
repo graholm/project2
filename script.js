@@ -1,9 +1,3 @@
-storeValue("name", "david")
-storeValue("person", {name: "grace"})
-
-addListItem("userList", {name: "D"})   
-onNewListItem("userList", function(user){
-})
 onNewValue("person", function(newPerson) {
 })
 
@@ -14,4 +8,8 @@ input.keydown(function(e) {
     console.log (firstname)
     addListItem("userList", {name: firstname})
   }
+})
+
+onNewListItem("userList", function(firstname) {
+  console.log(firstname)
 })
