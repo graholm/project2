@@ -6,22 +6,6 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-{
-  ->> challenge3: {
-    productName: {
-      realName: "david"
-    }
-  }
-}
-
-var store = firebase.database().ref("challenge-3")
-
-var realName = store.child("productName").child("realName")
-
-realName.on("value", function(snapshot) {
-  
-})
-
 
 
 function storeValue(name, value) {	
