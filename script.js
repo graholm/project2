@@ -11,8 +11,8 @@ onNewValue("person", function(newPerson) {
 })
 
 
-var name = $("#new-item-input")
-name.keydown(function(e) {	
+var input = $("#new-item-input")
+input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var firstname = input.val();
     console.log (firstname)
