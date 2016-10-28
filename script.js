@@ -7,13 +7,14 @@ input.keydown(function(e) {
     var firstname = input.val();
     console.log (firstname)
     storeValue("userList", {name: firstname})
+    $("body").append("Hello, " +  firstname );
   }
 })
 
 onNewListItem("userList", function(firstname) {
   console.log(firstname)
 })
-$("body").append("Hello" + (firstname );
+
 
 
 
