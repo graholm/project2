@@ -1,3 +1,6 @@
+var enterButton = $("#enter-button")
+
+
 onNewValue("person", function(newPerson) {
 })
 var input = $("#new-item-input")
