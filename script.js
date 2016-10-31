@@ -9,7 +9,7 @@ enterButton.click(function() {
     $("body").append("Hello " +  firstname + "," + " what is your favorite animal?");
    var element = document.createElement("input");
     
-  }
+  })
 })
 
 
