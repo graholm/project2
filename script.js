@@ -8,6 +8,7 @@ input.keydown(function(e) {
     console.log (firstname)
     storeValue("userList", {name: firstname})
     $("body").append("Hello " +  firstname + "," + " what is your favorite animal?");
+    
   }
 })
 
